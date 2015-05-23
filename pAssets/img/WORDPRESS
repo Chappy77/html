@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------------
+These instructions are stored in /root/WORDPRESS for your review.
+-------------------------------------------------------------------------------------
+To finish installing Wordpress, navigate to your droplet's IP: http://107.170.212.31 and use credentials from below.
+-------------------------------------------------------------------------------------
+Your /wp-admin is protected by Apache using .htaccess credentials:
+User: admin
+Pass: WbRSSJnEsN
+-------------------------------------------------------------------------------------
+Make sure to specify hostname from DO panel to your droplet before creating it (for example: 'blog.mydomain.com' or 'myblog.com')
+This will create necessary Apache configs based on hostname and Apache will respond based on hostname.
+Server will also respond to its IP address, so if you finish installation from http://IP then
+you will need to change hostname from Wordpress Settings later (from http://IP to http://hostname)
+-------------------------------------------------------------------------------------
+If you need to upload files, use WinSCP or Rsync to copy files into /var/www
+-------------------------------------------------------------------------------------
